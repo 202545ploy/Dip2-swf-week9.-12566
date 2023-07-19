@@ -18,3 +18,4 @@ class Employee extends Model
         'status',
     ];
 }
+
