@@ -20,7 +20,7 @@ class EmployeeFactory extends Factory
         return [
             'name' => $this->faker->name(),
             'email' => $this->faker->email(),
-            'phone' => $this->faker->randomNumber(10, true),
+            'phone' => $this->faker->randomNumber(9, true),
             'designation' => Str::random(5),
         ];
     }
